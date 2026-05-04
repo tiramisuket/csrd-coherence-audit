@@ -55,32 +55,24 @@ Both companies analyzed using the same pipeline, no custom logic:
 
 **The comparative insight:** the two companies fail coherence in *fundamentally different categories*. Sector-mismatched reporters (Unilever, FMCG) fail on transition-plan-vs-alignment gaps and contradictory sector-framing. Sector-aligned reporters (Schneider, industrial) fail on intra-disclosure arithmetic and cross-team coordination. Different risk profiles call for different audit-readiness checks. The same pipeline catches both.
 
-See `outputs/findings_report.md` for the full comparative report.
+See `findings_report.md` for the full comparative report.
 
 ---
 
 ## How it's built
 
-```
-PDF → text extraction (pypdf) →
-keyword-based section detection →
-Claude Sonnet 4.6 extraction (ESRS E1) →
-Claude Sonnet 4.6 extraction (EU Taxonomy) →
-Claude Sonnet 4.6 coherence cross-check →
-structured JSON outputs + markdown report
-```
-
 Deliberately simple. No vector DB, no RAG, no agent framework. The point was to understand the data problem before reaching for fancy infrastructure.
 
-The three prompts are the engineering work. They live in `prompts/` as standalone text files for inspection.
+The three prompts are the engineering work. They are saved as numbered `.txt` files in this repo for inspection.
 
 ---
 
 ## Repo contents
 
 - `notebook.ipynb` — the full pipeline as a Colab notebook
-- `prompts/` — the three Claude prompts as standalone text files
-- `outputs/` — JSON extractions and findings report from the two companies analyzed
+- `01_esrs_e1_extraction.txt`, `02_eu_taxonomy_extraction.txt`, `03_coherence_crosscheck.txt` — the three Claude prompts as standalone text files
+- `findings_report.md` — the comparative findings report across both companies
+- `*_e1.json`, `*_taxonomy.json`, `*_crosscheck.json` — structured extractions for each company analyzed
 - `requirements.txt` — Python dependencies
 
 ---
