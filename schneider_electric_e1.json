@@ -1,0 +1,233 @@
+{
+  "company": "Schneider Electric",
+  "fiscal_year": 2024,
+  "ghg_emissions": {
+    "scope_1_tco2e": {
+      "value": 106360,
+      "unit": "tCO2eq",
+      "page": 150
+    },
+    "scope_2_location_based_tco2e": {
+      "value": 433505,
+      "unit": "tCO2eq",
+      "page": 150
+    },
+    "scope_2_market_based_tco2e": {
+      "value": 37348,
+      "unit": "tCO2eq",
+      "page": 150
+    },
+    "scope_3_total_tco2e": {
+      "value": 55649186,
+      "unit": "tCO2eq",
+      "page": 150
+    },
+    "scope_3_categories": [
+      {
+        "category_number": 1,
+        "category_name": "Purchased goods and services",
+        "value_tco2e": 6562746,
+        "page": 150
+      },
+      {
+        "category_number": 2,
+        "category_name": "Capital goods",
+        "value_tco2e": 161033,
+        "page": 150
+      },
+      {
+        "category_number": 3,
+        "category_name": "Fuel- and energy-related activities (not included in Scope 1 or Scope 2)",
+        "value_tco2e": 100126,
+        "page": 150
+      },
+      {
+        "category_number": 4,
+        "category_name": "Upstream transportation and distribution",
+        "value_tco2e": 816302,
+        "page": 150
+      },
+      {
+        "category_number": 5,
+        "category_name": "Waste generated in operations",
+        "value_tco2e": 38747,
+        "page": 150
+      },
+      {
+        "category_number": 6,
+        "category_name": "Business travel",
+        "value_tco2e": 161046,
+        "page": 150
+      },
+      {
+        "category_number": 7,
+        "category_name": "Employee commuting",
+        "value_tco2e": 177665,
+        "page": 150
+      },
+      {
+        "category_number": 8,
+        "category_name": "Upstream leased assets",
+        "value_tco2e": 0,
+        "page": 150
+      },
+      {
+        "category_number": 9,
+        "category_name": "Downstream transportation and distribution",
+        "value_tco2e": 570959,
+        "page": 150
+      },
+      {
+        "category_number": 10,
+        "category_name": "Processing of sold products",
+        "value_tco2e": 0,
+        "page": 150
+      },
+      {
+        "category_number": 11,
+        "category_name": "Use of sold products",
+        "value_tco2e": 42598039,
+        "page": 150
+      },
+      {
+        "category_number": 12,
+        "category_name": "End-of-life treatment of sold products",
+        "value_tco2e": 4462523,
+        "page": 150
+      },
+      {
+        "category_number": 13,
+        "category_name": "Downstream leased assets",
+        "value_tco2e": 0,
+        "page": 150
+      },
+      {
+        "category_number": 14,
+        "category_name": "Franchises",
+        "value_tco2e": 0,
+        "page": 150
+      },
+      {
+        "category_number": 15,
+        "category_name": "Investments",
+        "value_tco2e": 0,
+        "page": 150
+      }
+    ]
+  },
+  "emissions_targets": {
+    "has_sbti_validation": true,
+    "sbti_target_description": "Net-Zero targets validated by SBTi Corporate Net-Zero Standard in August 2022. Scope 1 and 2 target aligned with 1.5\u00b0C (76% absolute reduction by 2030 vs. 2021, equivalent to 90% vs. 2017). Scope 3 target aligned with well-below 2\u00b0C (25% absolute reduction by 2030 vs. 2021). Long-term net-zero target of 90% absolute reduction across all scopes by 2050 vs. 2021.",
+    "net_zero_target_year": 2050,
+    "scope_1_2_reduction_target_pct": 76,
+    "scope_1_2_baseline_year": 2021,
+    "scope_3_reduction_target_pct": 25,
+    "scope_3_baseline_year": 2021
+  },
+  "transition_plan": {
+    "has_transition_plan": true,
+    "key_levers": [
+      "Energy sufficiency and efficiency actions at sites (reduce energy consumption)",
+      "Electrification of sites and vehicle fleet (switch from fossil fuels to electricity)",
+      "Renewable electricity sourcing (bundled/unbundled certificates and on-site generation)",
+      "SF6 phase-down in products and reduction of SF6 leaks at sites (AirSeT SF6-free circuit breakers)",
+      "Supplier engagement via The Zero Carbon Project (top 1,000 suppliers target 50% Scope 1+2 reduction by 2025) and eco-design of products to reduce upstream and downstream Scope 3 emissions"
+    ],
+    "capex_aligned_to_transition": {
+      "current_2024_capex_eur_million": 41.6,
+      "breakdown": {
+        "electrification_projects_at_sites_eur_million": 39.8,
+        "sf6_phase_down_manufacturing_eur_million": 14.4,
+        "note": "EUR 39.8M and EUR 14.4M are itemised 2024 CapEx; total transition plan CapEx of EUR 41.6M reported separately as aligned to decarbonization levers tracking Scope 1 and 2 only"
+      },
+      "future_capex_2024_to_2030_eur_million": 400,
+      "future_capex_breakdown": {
+        "electrification_projects_at_sites_eur_million": 200,
+        "ev_chargers_at_sites_eur_million": 90
+      },
+      "pages": [
+        135,
+        137,
+        139
+      ]
+    }
+  },
+  "internal_carbon_price": {
+    "is_used": true,
+    "price_per_tco2e": null,
+    "currency": "EUR",
+    "scope_of_application": "Two mechanisms: (1) Carbon prices used in climate risk assessment applied to full GHG footprint (Scopes 1, 2, and 3; 55,792,899 tCO2eq covered), with prices ranging from 0 to 647 EUR/tCO2eq depending on country and scenario. (2) Marginal Abatement Cost Curve (MACC) analysis applied to carbon-intensive raw materials in upstream Scope 3 (~2,540,000 tCO2eq; ~4% of total Scope 3, ~25% of upstream categories), with no fixed carbon price but varying marginal costs.",
+    "pages": [
+      153,
+      154
+    ]
+  },
+  "methodology": {
+    "calculation_standard": "GHG Protocol Corporate Accounting and Reporting Standard and GHG Protocol Corporate Value Chain (Scope 3) Standard; compliant with ISO 14069 principles; all GHGs included in the Kyoto Protocol expressed in tCO2eq; Scope 2 calculated under both market-based and location-based approaches per GHG Protocol Scope 2 Guidance",
+    "assurance_provider": "PwC (PricewaterhouseCoopers)",
+    "assurance_level": "Reasonable assurance on Scope 1 and Scope 2 GHG emissions; limited assurance on Scope 3 GHG emissions and SSI/SSE indicators",
+    "pages": [
+      127,
+      329,
+      339
+    ]
+  },
+  "data_quality_flags": [
+    {
+      "flag": "Inconsistency between total Scope 1+2 (market-based) figures across sections. Page 150 CSRD table reports Scope 1 = 106,360 tCO2eq and Scope 2 market-based = 37,348 tCO2eq, summing to 143,708 tCO2eq. Page 348 GRI table confirms this sum as 'Total Scopes 1 and 2 GHG emissions (market-based) = 143,708 tCO2eq'. However, page 502 compensation section states '2024 emissions amounted to 144,309 tons of CO2' for Scope 1 and 2, a difference of 601 tCO2eq vs. the audited figure. No reconciliation is provided.",
+      "pages": [
+        150,
+        348,
+        502
+      ]
+    },
+    {
+      "flag": "Scope 3 upstream emissions showed a year-on-year increase of approximately 3.2% (from 7,766,994 tCO2eq in 2023 to 8,017,665 tCO2eq in 2024 per page 349), while the narrative on page 141 states 'upstream emissions have decreased by 2.7% since 2021'. The Board compensation review on page 502 attributes the 2024 increase to volume growth and expanded CSRD reporting scope capturing entities previously estimated. This methodology change creates a restatement risk but no formal restatement of the 2030 target baseline is disclosed.",
+      "pages": [
+        141,
+        349,
+        502
+      ]
+    },
+    {
+      "flag": "Capital goods (Scope 3 Category 2) and fuel- and energy-related activities (Category 3) showed very large year-on-year increases in 2024 vs. 2023: Category 2 increased from 55,361 to 161,033 tCO2eq (+191%) and Category 3 increased from 40,652 to 100,126 tCO2eq (+146%). Footnote on page 349 attributes this to a methodology change in 2024, but no quantified restatement of prior years or explanation of the specific change is provided, limiting comparability.",
+      "pages": [
+        349
+      ]
+    },
+    {
+      "flag": "The report states on page 112 that 'Schneider Electric's total carbon emissions (56 million tons in 2024) are mostly originating from Scope 3' and references a 'Net-Zero emissions by 2025' target, which appears to be a drafting error. The Company's public commitment is Net-Zero ready operations by 2030 and full value chain Net-Zero by 2050, not 2025. The 2025 milestone is 'carbon neutral operations', a different concept involving carbon credits.",
+      "pages": [
+        112,
+        127,
+        143
+      ]
+    },
+    {
+      "flag": "Business travel (Scope 3 Category 6) increased sharply from 60,702 tCO2eq in 2023 to 161,046 tCO2eq in 2024, a 165% increase. Footnote 7 on page 349 notes that starting in 2024, radiative forcing of air freight and air travel was included. This represents a significant methodology change affecting year-on-year comparability for this category, but no restated 2023 figure is provided.",
+      "pages": [
+        349
+      ]
+    },
+    {
+      "flag": "The percentage of Scope 3 GHG calculated using primary data is disclosed as only 1.37% (page 150), predominantly from paid freight and some aluminum procurement. This is a very low primary data coverage for a footprint of ~55.6 MtCO2eq. The large majority of Scope 3 (including Category 1 purchased goods at 6.6 MtCO2eq and Category 11 use of sold products at 42.6 MtCO2eq) relies on spend-based or LCA-based estimation methods, creating significant estimation uncertainty.",
+      "pages": [
+        150
+      ]
+    },
+    {
+      "flag": "The LTIP 2024 carbon targets were revised mid-cycle in February 2025 (page 502) because (i) the Scope 1+2 target was already over-achieved after one year and (ii) the Scope 3 upstream intensity target was deemed unreachable, partly due to expanded CSRD reporting scope. This raises a question about the robustness of the original target-setting and the degree to which CSRD scope changes were anticipated when setting executive compensation metrics.",
+      "pages": [
+        500,
+        502
+      ]
+    },
+    {
+      "flag": "Use of sold products (Scope 3 Category 11) represents 42,598,039 tCO2eq or approximately 76.5% of total Scope 3. These emissions are calculated based on products sold in the reporting year and cumulated over their full expected lifetime (up to 30 years), using forward-looking IEA Stated Policies Scenario grid intensity. This lifetime-based accounting methodology, while compliant with GHG Protocol, means the reported figure is not the actual GHG emitted in 2024, but a forward-looking stock concept. This is disclosed but may not be immediately apparent to users comparing the figure to peers using a different convention.",
+      "pages": [
+        149,
+        150
+      ]
+    }
+  ]
+}

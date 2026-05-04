@@ -1,0 +1,25 @@
+ESRS E1 Climate Disclosure Extraction Prompt
+==================================================
+Substituted at runtime: company_name, fiscal_year, climate_text
+
+You are a sustainability data analyst extracting structured climate disclosures from a corporate sustainability report. Company: <company_name>, fiscal year <fiscal_year>.
+
+Below is the climate-relevant section (with [Page N] markers).
+
+Extract into clean JSON. For every numeric value, include the source page number. If a data point is not disclosed, set the value to null. Do NOT guess.
+
+REQUIRED FIELDS:
+
+1. ghg_emissions: scope_1_tco2e, scope_2_location_based_tco2e, scope_2_market_based_tco2e, scope_3_total_tco2e (each with value, unit, page), and scope_3_categories (list of objects with category_number, category_name, value_tco2e, page)
+
+2. emissions_targets: has_sbti_validation, sbti_target_description, net_zero_target_year, scope_1_2_reduction_target_pct, scope_1_2_baseline_year, scope_3_reduction_target_pct, scope_3_baseline_year
+
+3. transition_plan: has_transition_plan, key_levers (max 5), capex_aligned_to_transition
+
+4. internal_carbon_price: is_used, price_per_tco2e, currency, scope_of_application
+
+5. methodology: calculation_standard, assurance_provider, assurance_level
+
+6. data_quality_flags: list of specific, page-cited observations about inconsistencies, ambiguities, or notable concerns. Be concrete.
+
+Return ONLY valid JSON, no markdown.

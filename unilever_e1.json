@@ -1,0 +1,136 @@
+{
+  "ghg_emissions": {
+    "scope_1_tco2e": {
+      "value": 480000,
+      "unit": "tCO2e",
+      "note": "0.48 million tonnes CO2e",
+      "page": 248
+    },
+    "scope_2_location_based_tco2e": {
+      "value": 1260000,
+      "unit": "tCO2e",
+      "note": "1.26 million tonnes CO2e",
+      "page": 248
+    },
+    "scope_2_market_based_tco2e": {
+      "value": 210000,
+      "unit": "tCO2e",
+      "note": "0.21 million tonnes CO2e",
+      "page": 248
+    },
+    "scope_3_total_tco2e": {
+      "value": 53800000,
+      "unit": "tCO2e",
+      "note": "53.80 million tonnes CO2e \u2014 Scope 3 GHG emissions in scope of net zero ambition. An additional indirect consumer use figure of 51.35 million tCO2e is reported separately but excluded from net zero scope. Total Scope 1, 2 and 3 (market-based) including indirect consumer use is 105.84 million tCO2e.",
+      "page": 248
+    },
+    "scope_3_categories": [
+      {
+        "category_number": 1,
+        "category_name": "Purchased goods and services",
+        "value_tco2e": 41790000,
+        "note": "41.79 million tCO2e; includes raw materials and ingredients (26.88m), packaging materials (6.37m), indirect procurement (8.54m)",
+        "page": 248
+      },
+      {
+        "category_number": 4,
+        "category_name": "Upstream transportation and distribution (logistics)",
+        "value_tco2e": 1610000,
+        "note": "1.61 million tCO2e. Note: Unilever categorises supplier-to-Unilever transport under Category 1 rather than Category 4 per GHG Protocol recommendation.",
+        "page": 248
+      },
+      {
+        "category_number": 11,
+        "category_name": "Use of sold products (HFC propellants)",
+        "value_tco2e": 1600000,
+        "note": "1.60 million tCO2e. This is the direct use-of-sold-products (HFC propellants) figure. Indirect consumer use emissions of 51.35 million tCO2e are reported separately and excluded from net zero scope.",
+        "page": 248
+      },
+      {
+        "category_number": 13,
+        "category_name": "Downstream leased assets (ice cream cabinets)",
+        "value_tco2e": 2790000,
+        "note": "2.79 million tCO2e",
+        "page": 248
+      },
+      {
+        "category_number": 12,
+        "category_name": "End of life treatment of sold products",
+        "value_tco2e": 3700000,
+        "note": "3.70 million tCO2e",
+        "page": 248
+      },
+      {
+        "category_number": null,
+        "category_name": "Others (capital goods, fuel and energy-related activities, waste generated in operations, business travel, employee commuting, downstream transport and distribution, franchises)",
+        "value_tco2e": 2310000,
+        "note": "2.31 million tCO2e. No single GHG Protocol category number assigned; this is a combined 'Others' line.",
+        "page": 248
+      }
+    ]
+  },
+  "emissions_targets": {
+    "has_sbti_validation": true,
+    "sbti_target_description": "Scope 1 and 2 target (100% reduction by 2030 vs. 2015 baseline, market-based) validated by SBTi in 2017 as compatible with a 1.5\u00b0C pathway. Scope 3 targets (42% reduction in E&I emissions and 30.3% reduction in FLAG emissions by 2030 vs. 2021 baseline) validated by SBTi in 2024 under Criteria version 5.1.",
+    "net_zero_target_year": 2039,
+    "scope_1_2_reduction_target_pct": 100,
+    "scope_1_2_baseline_year": 2015,
+    "scope_3_reduction_target_pct": null,
+    "scope_3_baseline_year": 2021,
+    "scope_3_targets_detail": [
+      {
+        "target_name": "Scope 3 Energy and Industrial (E&I)",
+        "reduction_pct": 42.0,
+        "baseline_year": 2021,
+        "target_year": 2030,
+        "page": 236
+      },
+      {
+        "target_name": "Scope 3 Forest, Land and Agriculture (FLAG)",
+        "reduction_pct": 30.3,
+        "baseline_year": 2021,
+        "target_year": 2030,
+        "page": 236
+      }
+    ]
+  },
+  "transition_plan": {
+    "has_transition_plan": true,
+    "key_levers": [
+      "Thermal and electrical energy efficiency and electrification of thermal processes, including transition to sustainably sourced biofuels (Scope 1 and 2)",
+      "Renewable power via on-site generation and off-site power purchase agreements (Scope 1 and 2)",
+      "Refrigeration: phasing out high-impact systems and preventing refrigerant leaks (Scope 1 and 2)",
+      "Supplier Climate Programme: co-funding supplier GHG reductions, setting science-based targets and obtaining product carbon footprint data (Scope 3)",
+      "Reformulating products with lower-GHG ingredients and packaging, reducing palm oil in soap bars (Scope 3)"
+    ],
+    "capex_aligned_to_transition": "our total CNF commitments since the Fund's launch in 2020 increased from \u20ac0.3 billion in 2023 to \u20ac0.7 billion. We added \u20ac0.4 billion in 2024 related to our upstream value chain investments, which contribute to Unilever's future fit operations and sustainability goals, including our NDPE palm value chain investments in UOI."
+  },
+  "internal_carbon_price": {
+    "is_used": false,
+    "price_per_tco2e": null,
+    "currency": null,
+    "scope_of_application": null,
+    "note": "Page 250 states: 'We believe the practice of internal carbon pricing can be important in signalling support for carbon pricing as a policy instrument. In practice, however, as not many of our operations are particularly energy-intensive, our Scope 1 and 2 GHG reduction targets act as a more significant decision factor than the shadow carbon price.' No specific internal carbon price value or formal application is disclosed."
+  },
+  "methodology": {
+    "calculation_standard": "GHG Protocol Corporate Standard",
+    "assurance_provider": "KPMG LLP",
+    "assurance_level": "limited",
+    "page_references": {
+      "calculation_standard": 247,
+      "assurance": 297
+    }
+  },
+  "data_quality_flags": [
+    "Scope 3 total reported as 53.80 million tCO2e (net zero scope, page 248). Summing the disclosed line items \u2014 Purchased goods and services (41.79m) + Upstream transport (1.61m) + Downstream leased assets (2.79m) + Use of sold products HFC (1.60m) + End of life (3.70m) + Others (2.31m) \u2014 yields 53.80 million tCO2e, which is consistent with the stated total.",
+    "Scope 3 category mapping is non-standard in places: Unilever explicitly states it classifies supplier-to-Unilever transportation under Category 1 (Purchased goods and services) rather than Category 4 as recommended by the GHG Protocol, making category-level comparisons with other companies unreliable (page 247).",
+    "The report presents two different 'total Scope 3' figures: 53.80 million tCO2e (in scope of net zero ambition) and 105.84 million tCO2e total Scope 1+2+3 market-based (which includes 51.35 million tCO2e of indirect consumer use). The indirect consumer use figure is explicitly excluded from net zero scope per GHG Protocol and SBTi guidelines. Users should be careful not to conflate these two totals (page 248).",
+    "The scope_3_reduction_target_pct field is set to null at the top level because Unilever does not disclose a single aggregate Scope 3 reduction target; instead it has two separate sub-targets (E&I: 42% and FLAG: 30.3%) each covering different emission categories and different percentage coverage of the total Scope 3 base (page 245).",
+    "Scope 3 categories 2 (Capital goods), 3 (Fuel and energy-related activities), 5 (Waste generated in operations), 6 (Business travel), 7 (Employee commuting), 9 (Downstream transportation and distribution), and 14 (Franchises) are bundled into the 'Others' line (2.31m tCO2e) without individual category breakdowns disclosed in the extracted text (page 248).",
+    "Category 10 (Processing of sold products) and Category 15 (Investments) are explicitly excluded as not material (page 248).",
+    "Indirect carbon price: the report refers to a 'shadow carbon price' but explicitly states it is not a significant decision factor and does not disclose a price per tCO2e. The is_used field is set to false on this basis, though the language is ambiguous \u2014 Unilever acknowledges the concept without confirming formal use (page 250).",
+    "The 2015 Scope 1 and 2 baseline is stated as 2.01 million tCO2e (page 246), while the targets table on page 245 states total baseline emissions of 2.1 million tCO2e with 95.6% in scope of target (i.e., 2.0 million tCO2e in scope). These figures are consistent but presented at different rounding levels, which could cause apparent discrepancies.",
+    "Biogenic CO2 emissions of 468,432 tonnes CO2 (Scope 1 and 2) in 2024 are disclosed in a footnote but excluded from the reported Scope 1 and 2 totals in line with GHG Protocol (page 248, footnote c). This is consistent with protocol but users comparing absolute emissions should be aware of this exclusion.",
+    "UK Scope 1 emissions in the SECR table (page 53) show a large year-on-year change: 24,065 tCO2e in 2024 vs. 47,014 tCO2e in 2023 (restated). A footnote states the 2023 figure was restated from 41,594 kg CO2 (note: reported as 'kg' which appears to be a typographical error \u2014 likely should be tonnes CO2e). The unit inconsistency in the footnote is a potential data quality concern."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "headline_kpis": {
+    "turnover_eligible_pct": {
+      "value": 0,
+      "page": 266
+    },
+    "turnover_aligned_pct": {
+      "value": 0,
+      "page": 266
+    },
+    "capex_eligible_pct": {
+      "value": 15.1,
+      "page": 266
+    },
+    "capex_aligned_pct": {
+      "value": 0,
+      "page": 266
+    },
+    "opex_eligible_pct": {
+      "value": 0,
+      "page": 266
+    },
+    "opex_aligned_pct": {
+      "value": 0,
+      "page": 266
+    }
+  },
+  "environmental_objectives_claimed": [
+    {
+      "objective_name": "climate_mitigation",
+      "kpi_type": "capex",
+      "aligned_pct": 0,
+      "page": 266
+    },
+    {
+      "objective_name": "water",
+      "kpi_type": "capex",
+      "aligned_pct": 0,
+      "page": 266
+    },
+    {
+      "objective_name": "circular_economy",
+      "kpi_type": "capex",
+      "aligned_pct": 0,
+      "page": 266
+    }
+  ],
+  "activities_claimed": [
+    {
+      "activity_code": "CCM 4.1",
+      "activity_name": "Electricity generation using solar photovoltaic technology",
+      "kpi_type": "capex",
+      "eligible_pct": 0.2,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 4.16",
+      "activity_name": "Installation and operation of electric heat pumps",
+      "kpi_type": "capex",
+      "eligible_pct": 0.1,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 4.24",
+      "activity_name": "Production of heat/cool from bioenergy",
+      "kpi_type": "capex",
+      "eligible_pct": 0.1,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 5.2",
+      "activity_name": "Renewal of water collection, treatment and supply systems",
+      "kpi_type": "capex",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 6.5",
+      "activity_name": "Transport by motorbikes, passenger cars and light commercial vehicles",
+      "kpi_type": "capex",
+      "eligible_pct": 0.1,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 7.1 / CE 3.1",
+      "activity_name": "Construction of new buildings",
+      "kpi_type": "capex",
+      "eligible_pct": 0.3,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 7.2 / CE 3.2",
+      "activity_name": "Renovation of existing buildings",
+      "kpi_type": "capex",
+      "eligible_pct": 0.8,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 7.3",
+      "activity_name": "Installation, maintenance and repair of energy efficiency equipment",
+      "kpi_type": "capex",
+      "eligible_pct": 0.2,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 7.7",
+      "activity_name": "Acquisition and ownership of buildings",
+      "kpi_type": "capex",
+      "eligible_pct": 13.3,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CCM 8.1",
+      "activity_name": "Data processing, hosting and related activities",
+      "kpi_type": "capex",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "WTR 2.1",
+      "activity_name": "Water supply",
+      "kpi_type": "capex",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 267
+    },
+    {
+      "activity_code": "CE 5.1",
+      "activity_name": "Repair, refurbishment and remanufacturing",
+      "kpi_type": "capex",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 267
+    }
+  ],
+  "dnsh_assessment": {
+    "is_per_activity": false,
+    "notable_gaps": [
+      "DNSH is not assessed per activity or per environmental objective. The disclosure on page 266 states generically that 'none of this eligible capital expenditure can be classified as aligned as they do not make a substantial contribution to climate change mitigation objective' due to insufficient documentation, with no per-activity DNSH analysis provided.",
+      "For all eligible capex activities listed in the table on page 267, DNSH criteria columns show 'N/EL' across all six environmental objectives for every individual activity, with no substantive narrative explaining how each activity avoids significant harm to any of the six objectives.",
+      "The reason given for non-alignment is solely documentary insufficiency for the substantial contribution criterion; no DNSH assessment is performed or documented at the activity level.",
+      "There is no disclosure of DNSH assessment methodology or evidence for the water (WTR 2.1) or circular economy (CE 5.1) activities beyond the N/EL table entries."
+    ]
+  },
+  "minimum_safeguards": {
+    "has_dedicated_disclosure": true,
+    "approach_summary": "Page 266 states compliance is determined by assessing internal policies against minimum criteria and reviewing breaches or violations in the reporting period. No specific HRDD process named.",
+    "is_substantive": false
+  },
+  "data_quality_flags": [
+    {
+      "issue": "INTERNAL CONSISTENCY \u2013 Per-activity eligible percentages do not sum to headline eligible capex",
+      "detail": "The per-activity eligible percentages in the table on page 267 sum to approximately 15.1% (0.2+0.1+0.1+0.0+0.1+0.3+0.8+0.2+13.3+0.0+0.0+0.0), which is consistent with the headline 15.1% on page 266. However, the absolute euro amounts sum to \u20ac438.7M against a total capex of \u20ac2,902.8M, implying 15.11%, consistent. No arithmetic inconsistency detected for the total, but several individual activity percentages are reported as '\u2014%' (i.e. rounded to zero) in the table despite non-zero euro values (e.g. CCM 5.2: \u20ac1.0M shown as \u2014%; WTR 2.1: \u20ac1.3M shown as \u2014%; CE 5.1: \u20ac0.9M shown as \u2014%), which suppresses information for readers.",
+      "page": 267
+    },
+    {
+      "issue": "SUM RECONCILIATION \u2013 2023 comparison column shows different proportions from 2024",
+      "detail": "The 'Proportion of taxonomy-aligned (A.1.) or eligible (A.2.) Capex 2023' column in the table on page 267 shows values such as 16.1% for activity 7.7 and 17.7% for the total eligible capex (A.2), compared to 13.3% and 15.1% respectively for 2024. The headline narrative on page 266 only references the 2024 figure of 15.1% with no explanation of the 2023 figures or the methodology change, making reconciliation across years opaque.",
+      "page": 267
+    },
+    {
+      "issue": "DISCLOSURE COMPLETENESS \u2013 Turnover and OpEx eligible percentages are both zero with no activity-level breakdown",
+      "detail": "Pages 268 and 269 show zero eligible turnover and zero eligible opex with no activity-level rows populated in the A.2 section of the respective tables. No explanation is provided as to why no turnover activities are eligible given that the company operates buildings and other potentially eligible assets. Article 8 requires both eligibility and alignment to be reported; while alignment is reported (also zero), the absence of any eligible turnover activities for an FMCG company of Unilever's scale and diversification is unexplained.",
+      "page": 268
+    },
+    {
+      "issue": "SECTOR CONTEXT \u2013 Disclosure is thin relative to Unilever's sector and scale",
+      "detail": "Unilever is a global FMCG company with \u20ac60.8bn turnover and significant manufacturing, agricultural supply chain, and packaging operations. The EU Taxonomy disclosure spans approximately three pages (pages 266\u2013269). No eligible activities are identified for turnover or opex. The company explicitly attributes this to the EU Taxonomy not yet covering the FMCG industry (page 266), but does not attempt to identify even partial turnover or opex eligibility (e.g. renewable energy sales, water-efficient product lines). The disclosure is materially thinner than peers in adjacent sectors.",
+      "page": 266
+    },
+    {
+      "issue": "BOILERPLATE DNSH \u2013 DNSH assessed generically, not per activity",
+      "detail": "The DNSH section on page 266 does not contain any per-activity or per-objective assessment. The sole reason given for non-alignment is lack of documentation for the substantial contribution criterion. No DNSH narrative is provided for any of the 12 eligible capex activities listed on page 267, and all DNSH columns in the table show 'N/EL' without substantive explanation.",
+      "page": 266
+    },
+    {
+      "issue": "SAFEGUARDS DEPTH \u2013 Minimum safeguards disclosure is generic and not backed by specific human rights due diligence evidence",
+      "detail": "Page 266 states only that compliance with minimum safeguards 'has been determined by assessing our internal policies against the minimum criteria and reviewing any breaches or violations identified in the reporting period.' No specific human rights due diligence process, OECD Guidelines alignment, or UN Guiding Principles mapping is referenced in the Taxonomy section. Cross-references to broader social disclosures (pages 274\u2013278) are not made within the Taxonomy section itself.",
+      "page": 266
+    },
+    {
+      "issue": "DOUBLE-COUNTING DISCLOSURE \u2013 Activities 7.1 and 7.2 claimed under both CCM and CE objectives",
+      "detail": "Footnote (a) on page 266 states that capex for activities 7.1 (Construction of new buildings) and 7.2 (Renovation of existing buildings) is eligible under both Climate Change Mitigation and Transition to a Circular Economy, but is allocated entirely to Climate Change Mitigation to avoid double counting. While the footnote acknowledges this, the table on page 267 assigns CCM 7.1/CE 3.1 and CCM 7.2/CE 3.2 codes simultaneously, which may cause confusion for readers comparing per-objective breakdowns. The circular economy contribution of these activities is therefore not visible in the circular economy objective row of the disclosure.",
+      "page": 266
+    }
+  ]
+}

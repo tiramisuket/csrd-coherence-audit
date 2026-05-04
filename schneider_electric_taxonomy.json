@@ -1,0 +1,414 @@
+{
+  "headline_kpis": {
+    "turnover_eligible_pct": {
+      "value": 90,
+      "page": 159
+    },
+    "turnover_aligned_pct": {
+      "value": 28,
+      "page": 159
+    },
+    "capex_eligible_pct": {
+      "value": 71,
+      "page": 161
+    },
+    "capex_aligned_pct": {
+      "value": 22,
+      "page": 161
+    },
+    "opex_eligible_pct": {
+      "value": 49,
+      "page": 161
+    },
+    "opex_aligned_pct": {
+      "value": 49,
+      "page": 161
+    }
+  },
+  "environmental_objectives_claimed": [
+    {
+      "objective_name": "Climate Change Mitigation (CCM)",
+      "kpi_type": "turnover_aligned_pct",
+      "aligned_pct": 25,
+      "page": 202
+    },
+    {
+      "objective_name": "Climate Change Mitigation (CCM)",
+      "kpi_type": "turnover_eligible_pct",
+      "aligned_pct": 51,
+      "page": 202
+    },
+    {
+      "objective_name": "Climate Change Adaptation (CCA)",
+      "kpi_type": "turnover_aligned_pct",
+      "aligned_pct": null,
+      "page": 202
+    },
+    {
+      "objective_name": "Protection of Water and Marine Resources (WTR)",
+      "kpi_type": "turnover_aligned_pct",
+      "aligned_pct": 0,
+      "page": 202
+    },
+    {
+      "objective_name": "Protection of Water and Marine Resources (WTR)",
+      "kpi_type": "turnover_eligible_pct",
+      "aligned_pct": 1,
+      "page": 202
+    },
+    {
+      "objective_name": "Transition to a Circular Economy (CE)",
+      "kpi_type": "turnover_aligned_pct",
+      "aligned_pct": 3,
+      "page": 202
+    },
+    {
+      "objective_name": "Transition to a Circular Economy (CE)",
+      "kpi_type": "turnover_eligible_pct",
+      "aligned_pct": 80,
+      "page": 202
+    },
+    {
+      "objective_name": "Pollution Prevention and Control (PPC)",
+      "kpi_type": "turnover_aligned_pct",
+      "aligned_pct": null,
+      "page": 202
+    },
+    {
+      "objective_name": "Biodiversity and Ecosystems Protection (BIO)",
+      "kpi_type": "turnover_aligned_pct",
+      "aligned_pct": null,
+      "page": 202
+    },
+    {
+      "objective_name": "Climate Change Mitigation (CCM)",
+      "kpi_type": "capex_aligned_pct",
+      "aligned_pct": 21,
+      "page": 203
+    },
+    {
+      "objective_name": "Climate Change Mitigation (CCM)",
+      "kpi_type": "capex_eligible_pct",
+      "aligned_pct": 56,
+      "page": 203
+    },
+    {
+      "objective_name": "Protection of Water and Marine Resources (WTR)",
+      "kpi_type": "capex_aligned_pct",
+      "aligned_pct": 0,
+      "page": 203
+    },
+    {
+      "objective_name": "Transition to a Circular Economy (CE)",
+      "kpi_type": "capex_aligned_pct",
+      "aligned_pct": 1,
+      "page": 203
+    },
+    {
+      "objective_name": "Transition to a Circular Economy (CE)",
+      "kpi_type": "capex_eligible_pct",
+      "aligned_pct": 33,
+      "page": 203
+    },
+    {
+      "objective_name": "Climate Change Mitigation (CCM)",
+      "kpi_type": "opex_aligned_pct",
+      "aligned_pct": 49,
+      "page": 203
+    },
+    {
+      "objective_name": "Climate Change Mitigation (CCM)",
+      "kpi_type": "opex_eligible_pct",
+      "aligned_pct": 49,
+      "page": 203
+    }
+  ],
+  "activities_claimed": [
+    {
+      "activity_code": "CCM 3.1",
+      "activity_name": "Manufacture of renewable energy technologies",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 3.5",
+      "activity_name": "Manufacture of energy efficiency equipment for buildings",
+      "kpi_type": "turnover",
+      "eligible_pct": 4,
+      "aligned_pct": 1,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 3.6",
+      "activity_name": "Manufacture of other low carbon technologies",
+      "kpi_type": "turnover",
+      "eligible_pct": 2,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 3.20",
+      "activity_name": "Manufacture, installation, and servicing of HV, MV and LV electrical equipment for electrical transmission and distribution",
+      "kpi_type": "turnover",
+      "eligible_pct": 38,
+      "aligned_pct": 18,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 6.14",
+      "activity_name": "Infrastructure for rail transport",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 6.15",
+      "activity_name": "Infrastructure enabling low-carbon road transport and public transport",
+      "kpi_type": "turnover",
+      "eligible_pct": 1,
+      "aligned_pct": 1,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 6.16",
+      "activity_name": "Infrastructure enabling low-carbon water transport",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 6.17",
+      "activity_name": "Low carbon airport infrastructure",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 7.5",
+      "activity_name": "Installation, maintenance and repair of instruments and devices for measuring, regulation and controlling energy performance of buildings",
+      "kpi_type": "turnover",
+      "eligible_pct": 1,
+      "aligned_pct": 1,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 8.2",
+      "activity_name": "Data-driven solutions for GHG emissions reductions",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": null,
+      "page": 196
+    },
+    {
+      "activity_code": "CCM 9.3",
+      "activity_name": "Professional services related to energy performance of buildings",
+      "kpi_type": "turnover",
+      "eligible_pct": 3,
+      "aligned_pct": 3,
+      "page": 194
+    },
+    {
+      "activity_code": "WTR 1.1",
+      "activity_name": "Manufacture, installation and associated services for leakage control technologies enabling leakage reduction and prevention in water supply systems",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "WTR 4.1",
+      "activity_name": "Provision of IT/OT data-driven solutions for leakage reduction",
+      "kpi_type": "turnover",
+      "eligible_pct": 1,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CE 1.2",
+      "activity_name": "Manufacture of electrical and electronic equipment",
+      "kpi_type": "turnover",
+      "eligible_pct": 35,
+      "aligned_pct": 0,
+      "page": 196
+    },
+    {
+      "activity_code": "CE 4.1",
+      "activity_name": "Provision of IT/OT data-driven solutions",
+      "kpi_type": "turnover",
+      "eligible_pct": 3,
+      "aligned_pct": 3,
+      "page": 194
+    },
+    {
+      "activity_code": "CE 5.1",
+      "activity_name": "Repair, refurbishment and remanufacturing",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CE 5.2",
+      "activity_name": "Sale of spare parts",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CE 5.5",
+      "activity_name": "Product-as-a-service and other circular use- and result-oriented service models",
+      "kpi_type": "turnover",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 194
+    },
+    {
+      "activity_code": "CCM 3.1",
+      "activity_name": "Manufacture of renewable energy technologies",
+      "kpi_type": "capex",
+      "eligible_pct": 0,
+      "aligned_pct": 0,
+      "page": 198
+    },
+    {
+      "activity_code": "CCM 3.5",
+      "activity_name": "Manufacture of energy efficiency equipment for buildings",
+      "kpi_type": "capex",
+      "eligible_pct": 4,
+      "aligned_pct": 1,
+      "page": 198
+    },
+    {
+      "activity_code": "CCM 3.6",
+      "activity_name": "Manufacture of other low carbon technologies",
+      "kpi_type": "capex",
+      "eligible_pct": 12,
+      "aligned_pct": 12,
+      "page": 198
+    },
+    {
+      "activity_code": "CCM 3.20",
+      "activity_name": "Manufacture, installation, and servicing of HV, MV and LV electrical equipment for electrical transmission and distribution",
+      "kpi_type": "capex",
+      "eligible_pct": 14,
+      "aligned_pct": 7,
+      "page": 198
+    },
+    {
+      "activity_code": "CCM 7.7",
+      "activity_name": "Acquisition and ownership of buildings",
+      "kpi_type": "capex",
+      "eligible_pct": 24,
+      "aligned_pct": 0,
+      "page": 200
+    },
+    {
+      "activity_code": "CE 1.2",
+      "activity_name": "Manufacture of electrical and electronic equipment",
+      "kpi_type": "capex",
+      "eligible_pct": 14,
+      "aligned_pct": 0,
+      "page": 200
+    },
+    {
+      "activity_code": "CE 4.1",
+      "activity_name": "Provision of IT/OT data-driven solutions",
+      "kpi_type": "capex",
+      "eligible_pct": 1,
+      "aligned_pct": 1,
+      "page": 198
+    },
+    {
+      "activity_code": "CCM 3.6",
+      "activity_name": "Manufacture of other low carbon technologies",
+      "kpi_type": "opex",
+      "eligible_pct": 49,
+      "aligned_pct": 49,
+      "page": 202
+    }
+  ],
+  "dnsh_assessment": {
+    "is_per_activity": true,
+    "notable_gaps": [
+      {
+        "gap": "DNSH for Pollution Prevention and Control (PPC) disclosed as non-compliant for 14% of total revenues, driven by RoHS exemptions and REACH candidate list substances. The disclosure acknowledges inability to fully quantify non-alignment due to incomplete supplier data beyond tier 1 for substances in Article 57 of REACH not yet identified under Article 59(1).",
+        "page": 159
+      },
+      {
+        "gap": "DNSH checks are presented in a cross-cutting narrative structure organized by environmental objective rather than mapped individually to each activity code. While the table on pages 194-195 shows Y/N per activity per DNSH criterion, the underlying narrative justification (pages 186-190) is generic across activity groups rather than fully individualized per activity. For example, the CCM DNSH narrative covers all CCM activities collectively.",
+        "page": 186
+      },
+      {
+        "gap": "DNSH for Climate Change Adaptation is stated as 'Compliant' with reference to physical risk assessments and adaptation solutions, but no quantitative site-level data or specific criteria verification per activity is disclosed; the compliance claim rests on a qualitative forward-looking risk assessment.",
+        "page": 186
+      },
+      {
+        "gap": "DNSH for Biodiversity: compliance is asserted based on participation as a contractor in EIA projects and ESA due diligence procedures, but no site-specific biodiversity criteria checks per Taxonomy activity are documented.",
+        "page": 188
+      }
+    ]
+  },
+  "minimum_safeguards": {
+    "has_dedicated_disclosure": true,
+    "approach_summary": "Schneider Electric's minimum safeguards disclosure (page 188) covers four areas: (1) Human Rights \u2013 references UNGPs, OECD Guidelines for MNEs, and the Vigilance Plan; (2) Corruption \u2013 references the Zero-Tolerance for Corruption section and Ethics & Compliance program; (3) Taxation \u2013 references tax governance processes and the Vigilance Plan; (4) Fair Competition \u2013 references employee awareness programs and competition law compliance. The Platform on Sustainable Finance's Final Report on Minimum Safeguards is used as guidance. Additional detail on human rights due diligence is provided in the Sustainable Value Chain section (pages 236-242), including a Duty of Vigilance Committee (since 2017), a Vice President for Human Rights (appointed 2023), a Supplier Code of Conduct, and engagement with international standards (UNGPs, OECD, ILO, IHRB Dhaka Principles).",
+    "is_substantive": true
+  },
+  "data_quality_flags": [
+    {
+      "flag_type": "INTERNAL CONSISTENCY",
+      "description": "OpEx eligible and aligned are both reported at 49%, meaning 100% of eligible OpEx is simultaneously aligned. This is structurally possible only because OpEx is defined narrowly as product-related R&D non-capitalized costs exclusively attributable to CCM 3.6 (all of which are declared both eligible and aligned). The denominator (EUR 2,009 million) includes broader non-R&D costs that are treated as non-eligible, so the 49%/49% figure is internally consistent but reflects a very narrow OpEx definition that may understate the true scope of OpEx as commonly understood. Readers should note this definitional choice significantly inflates the apparent alignment rate within eligible OpEx.",
+      "page": 161
+    },
+    {
+      "flag_type": "SUM RECONCILIATION",
+      "description": "The per-objective aligned turnover percentages in the multiple-environmental-objectives table (CCM 25% + WTR ~0% + CE 3% = ~28%) sum to the 28% headline aligned figure, consistent with the caveat that activities contributing to multiple objectives are reported under the most relevant objective to avoid double-counting in the main templates. The report explicitly notes double-counting is removed in the headline KPI. This is correctly handled and disclosed.",
+      "page": 202
+    },
+    {
+      "flag_type": "SUM RECONCILIATION",
+      "description": "The per-objective eligible turnover in the multiple-environmental-objectives table shows CCM 51% + WTR 1% + CE 80% = 132%, which exceeds the 90% headline eligible figure. The report states this table intentionally includes double-counting for financial undertakings' reporting purposes, and that the 90% headline removes double-counting. This is disclosed but could mislead readers who do not read the methodological footnote carefully. No page citation for the 132% sum is provided in the report itself; the individual figures appear on page 202.",
+      "page": 202
+    },
+    {
+      "flag_type": "DISCLOSURE COMPLETENESS",
+      "description": "Climate Change Adaptation (CCA), Pollution Prevention and Control (PPC), and Biodiversity and Ecosystems Protection (BIO) show null/dash aligned and eligible percentages in the per-objective breakdown tables (pages 202-203). No activities are claimed under CCA or BIO as primary objectives in either the turnover or CapEx templates. While PPC non-alignment is explained (14% of revenues), the absence of any CCA-primary-objective activities is not explicitly justified given that Schneider Electric sells climate adaptation-relevant products (e.g., HVAC, building automation). The disclosure is internally consistent but the omission of CCA primary-objective activities is not explained.",
+      "page": 202
+    },
+    {
+      "flag_type": "DISCLOSURE COMPLETENESS",
+      "description": "Activity CCM 7.7 (Acquisition and ownership of buildings) appears in the CapEx non-aligned table (EUR 587 million, 24% of CapEx) as eligible but not aligned because rental real estate does not meet CCM 7.7 alignment criteria. This activity does not appear in the turnover or OpEx templates. Its inclusion exclusively in CapEx is methodologically correct (IFRS 16 right-of-use assets) but the non-alignment of a significant CapEx block (24%) for a technical real estate criterion is not prominently flagged in the summary disclosure on page 159.",
+      "page": 200
+    },
+    {
+      "flag_type": "DOUBLE-COUNTING",
+      "description": "The report explicitly states on page 186 that revenues assessed under the end-segment approach (1% of revenues) are not included in the offer-based approach (80%), and that the remaining 19% uses entity-level offer-based analysis. The methodology to avoid double-counting is disclosed. However, the per-objective eligible table (page 202) shows CE eligible at 80% of turnover while the A.2 table (page 196) shows CE 1.2 alone at 35% plus other CE activities. The 80% CE eligible figure in the multi-objective table includes all CCM activities that also contribute to CE by virtue of circularity criteria, confirming that the 80% CE eligible in the multi-objective table is an additive cross-objective total. The report discloses this distinction but the 80% CE eligible figure could mislead stakeholders comparing it with the 39% CE headline eligible from the main template.",
+      "page": 202
+    },
+    {
+      "flag_type": "BOILERPLATE DNSH",
+      "description": "DNSH narrative for CCM (page 186) and CCA (page 186-187) are written as a single paragraph each covering all activities claiming those objectives collectively. While the formal disclosure template (pages 194-195, 198-199) shows per-activity Y/N DNSH columns, the substantive explanatory text is not disaggregated by activity code. For example, the CCM DNSH narrative covering fossil fuel backup generators applies to all CCM activities as a group. This is not strictly non-compliant but falls short of fully per-activity substantiation.",
+      "page": 186
+    },
+    {
+      "flag_type": "SAFEGUARDS DEPTH",
+      "description": "The minimum safeguards section on page 188 consists of four short bullet paragraphs, each containing a single-sentence assertion of compliance with a cross-reference to other sections. The human rights entry states 'The company has established an adequate human rights due diligence process as outlined in the UNGPs and OECD Guidelines for MNEs' with a cross-reference to the Vigilance plan. While more substantive detail exists in pages 236-242 (Supplier Code of Conduct, Duty of Vigilance Committee, VP Human Rights appointment, migrant worker guidelines), the minimum safeguards section itself does not summarize key outcomes, remedy mechanisms, or coverage rates of human rights due diligence. Taxation compliance is described only as 'adequate tax risk management strategies and processes in place' with no further detail in the Taxonomy section itself.",
+      "page": 188
+    },
+    {
+      "flag_type": "SECTOR CONTEXT",
+      "description": "CE 1.2 (Manufacture of electrical and electronic equipment), representing EUR 13,237 million or 35% of total revenues, is declared 100% non-aligned due to acknowledged ambiguities in 'superior recyclability' terminology and lack of applicable requirements for 'long lifetime' hardware criteria. This is the single largest driver of the gap between 90% eligible and 28% aligned revenue. The conservative blanket non-alignment of the largest single activity is disclosed and explained (pages 158, 185, 187) but represents a significant reporting choice that materially suppresses the aligned ratio. The report acknowledges this is a conservative interpretation rather than a confirmed non-compliance with circular economy criteria.",
+      "page": 158
+    },
+    {
+      "flag_type": "INTERNAL CONSISTENCY",
+      "description": "Page 141 states '90% of the Group's revenue comes from economic activities supporting either climate change mitigation, the transition to a circular economy or the preservation of water resource' and 'Taxonomy-eligible and -aligned revenues with at least one of the climate environmental objectives amounted to 90% and 28% respectively'. However, page 132 states 'eligibility of Schneider Electric's business activities with the EU Taxonomy ... 90% of the Group's revenue in 2024 are contributing to at least one environmental objectives' and separately '50% that supports climate change mitigation and 39% that supports the transition to a circular economy'. The 50% CCM eligible (page 132) is consistent with the 51% CCM eligible in the multi-objective table (page 202) but is stated in rounded terms mid-document without the formal table context, which could be confusing. The 39% CE eligible (page 132) is consistent with the formal template (page 196). No mathematical inconsistency, but contextual clarity is reduced.",
+      "page": 132
+    }
+  ]
+}

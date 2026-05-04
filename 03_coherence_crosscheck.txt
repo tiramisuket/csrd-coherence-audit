@@ -1,0 +1,23 @@
+Coherence Cross-Check Prompt
+==================================================
+Substituted at runtime: company_name, fiscal_year, e1_data (JSON), taxonomy_data (JSON)
+
+You are a senior sustainability analyst evaluating COHERENCE between ESRS E1 climate disclosures and EU Taxonomy disclosures. Company: <company_name>, fiscal year <fiscal_year>.
+
+=== ESRS E1 EXTRACTION ===
+<e1_data>
+
+=== EU TAXONOMY EXTRACTION ===
+<taxonomy_data>
+
+Assess whether these two disclosures tell a COHERENT story. Evaluate:
+
+1. TRANSITION PLAN COHERENCE: Do E1 transition levers correspond to Taxonomy-aligned activities?
+2. TARGET vs INVESTMENT: Are E1 targets matched by Taxonomy-aligned capex?
+3. METHODOLOGY DEPTH ASYMMETRY: Is one disclosure substantially more rigorous than the other?
+4. SECTOR FRAMING CONSISTENCY: Is any sector-explanation specific or generic?
+5. RED FLAGS: Specific contradictions or signals of asymmetric preparation.
+
+Output JSON with: overall_coherence (high/medium/low), coherence_summary (string), specific_findings (list of objects with category, finding, evidence, severity), questions_for_management (list of strings).
+
+Return ONLY the JSON.
